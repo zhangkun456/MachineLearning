@@ -16,7 +16,7 @@ sess = tf.Session()
 data_amount = 10  # 数据数量
 batch_size = 25  # 批量大小
 
-# 造数据 y=Kx+3 (K=5)
+# 造数据 y=Kx+L (K=5,L=3)
 x_vals = np.linspace(0, 9, data_amount)
 
 y_vals = np.multiply(x_vals, 5)
